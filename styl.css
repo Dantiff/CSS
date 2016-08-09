@@ -28,4 +28,26 @@ h3 {
   -ms-border-radius: 10px;
   border-radius: 10px; }
 
+.container {
+  width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+aside[role="complementary"] {
+  float: right;
+  width: 31.25%; }
+
+.container {
+  width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+aside[role="complementary"] {
+  float: right;
+  width: 31.25%; }
+
 /*# sourceMappingURL=styl.css.map */

@@ -1,0 +1,43 @@
+//*using Sass nesting to style multiple elements*//
+p {
+	font-weight: bold;
+	a {
+		color: #AAA;
+		&:hover{
+			color: #FF0000;
+		}
+	}
+}
+//* Group formating for similar styles used in headings *//
+h1,h2,h3 {
+	font-weight: bold;
+	font-family: verdana;
+	
+}
+
+//* Formating individual headings using different stles
+*//
+h1 {
+	font-size: 25px;
+	color: #ff6666;
+}
+h2 {
+        font-size: 20x;
+        color: #66b3ff;
+}
+h3 {
+        font-size: 15px;
+        color: #ffff00;
+}
+
+//* Using mixins to improve code re-use*//
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+ 

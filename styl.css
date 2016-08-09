@@ -10,4 +10,14 @@ h1 {
   font-family: verdana;
   font-size: 20px; }
 
+h2 {
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 17px; }
+
+h3 {
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 14px; }
+
 /*# sourceMappingURL=styl.css.map */

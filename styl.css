@@ -1,0 +1,13 @@
+p {
+  font-weight: bold; }
+  p a {
+    color: #AAA; }
+    p a:hover {
+      color: #FF0000; }
+
+h1 {
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 20px; }
+
+/*# sourceMappingURL=styl.css.map */

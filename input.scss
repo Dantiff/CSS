@@ -1,17 +1,18 @@
-//*using Sass nesting to style multiple elements*//
-p {
-	font-weight: bold;
-	a {
-		color: #AAA;
-		&:hover{
-			color: #FF0000;
-		}
-	}
+body{
+	background-color: #ccffcc;
+
 }
+
+header{
+	background-color: #00e600;
+}
+
 //* Group formating for similar styles used in headings *//
 h1,h2,h3 {
 	font-weight: bold;
 	font-family: verdana;
+	text-align: center;
+	
 	
 }
 
@@ -29,6 +30,39 @@ h3 {
         font-size: 15px;
         color: #ffff00;
 }
+
+//*using Sass nesting to style multiple elements*//
+p {
+	font-weight: bold;
+	a {
+		color: #AAA;
+		&:hover{
+			color: #FF0000;
+		}
+	}
+}
+
+//*using Sass nesting to style HTML lists*//
+nav {
+	background-color: #80ff80;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+
+
+
 
 //* Using mixins to improve code re-use*//
 @mixin border-radius($radius) {

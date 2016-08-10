@@ -5,29 +5,51 @@
 	<title> August 8 -HTML </title>
 	<link rel="stylesheet" type="text/css" href="styl.css"> <! links the web page to an external CSS file for styling the content>
 </head>
-<body>
+
+<header>
+	<div>
 		<h1>This describes heading H1</h1>
 		<h2>This describes heading H2</h2>
 		<h3>This describes heading H3</h3>
+
+	</div>
+</header>
+		<nav>
+			<ul>
+			  <li><a href="html_assignment.html#basics">HTML Basics</a></li>
+			  <li><a href="html_assignment.html#graphics">HTML Graphics</a></li>
+			  <li> <a href="html_assignment.html#video">HTML Video </a></li>
+			  <li><a href="html_assignment.html#audio">HTML Audio</a></li>
+			  <li><a href="html_assignment.html#canvas">HTML Canvas</a></li>
+			  <li> <a href="html_assignment.html#svg">HTML SVG </a></li>
+			</ul>
+		</nav>
+<body>
+	<div id="basics">
+		<h2> HTML Basics </h2>
 		<h4>This describes heading H4</h4>
 		<h5>This describes heading H5</h5>
 		<h6>This describes heading H6</h6>
 		<p>This is a paragraph as displayed in basic HTML</p>
+	</div>
+	<div id="audio" class="dot">
+	<h2> HTML Audio </h2>
 	<p> This is a sample audio content that uses the .mp3 or .ogg video formats </p>
-	<div class="dot">
 		<audio controls>
   		<source src="horse.ogg" type="audio/ogg">
   		<source src="horse.mp3" type="audio/mpeg">
 		</audio>
 	</div>
+	<h2> HTML Video </h2>
 	<p> This is a sample video content that uses the .mp4 or .ogg video formats </p>
-	<div class="dot">
+	<div id="video" class="dot">
 		<video width="400" controls>
   		<source src="mov_bbb.mp4" type="video/mp4">
   		<source src="mov_bbb.ogg" type="video/ogg">
 		</video>
 	</div>
-	<div>
+	<div id="canvas">
+		<h2> HTML Canvas </h2>
 		<p> The follong diagram illustrates the use of Canvas in HTML as an example of graphics enabled in HTML </p>
 		 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
 		</canvas> 
@@ -51,7 +73,8 @@
 			ctx.stroke();
 		</script>
 	</div>
-	<div>
+	<div id="svg">
+	<h2> HTML SVG </h2>
 	<p> The following illustrates the use of the SVG element to draw graphics in HTML5 </p>
 	<svg width="400" height="100">
   		<rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />

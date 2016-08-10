@@ -1,13 +1,13 @@
-p {
-  font-weight: bold; }
-  p a {
-    color: #AAA; }
-    p a:hover {
-      color: #FF0000; }
+body {
+  background-color: #ccffcc; }
+
+header {
+  background-color: #00e600; }
 
 h1, h2, h3 {
   font-weight: bold;
-  font-family: verdana; }
+  font-family: verdana;
+  text-align: center; }
 
 *
 h1 {
@@ -21,6 +21,26 @@ h2 {
 h3 {
   font-size: 15px;
   color: #ffff00; }
+
+p {
+  font-weight: bold; }
+  p a {
+    color: #AAA; }
+    p a:hover {
+      color: #FF0000; }
+
+nav {
+  background-color: #80ff80; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none; }
 
 .box {
   -webkit-border-radius: 10px;
